@@ -8,3 +8,4 @@ require('../files/arrayAssignment');
 require('../files/map');
 require('../files/strings');
 require('../files/regex');
+require('../files/functions');

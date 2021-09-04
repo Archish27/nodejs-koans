@@ -1,5 +1,5 @@
-
 const { equal, match } = require('assert');
+
 describe('Undefined' , () => {
     it('#testUndefined', () => {
         const anyValue = undefined;
