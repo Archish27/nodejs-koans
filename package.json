@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-koans",
+  "version": "1.0.0",
+  "description": "JavaScript + Nodejs learning with test driven development.",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter ./util/reporter.js -b"
+  },
+  "author": "Archish Thakkar",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
