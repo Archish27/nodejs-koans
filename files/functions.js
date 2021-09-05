@@ -1,4 +1,4 @@
-const { equal, match } = require('assert');
+const { equal } = require('assert');
 
 function globalMethod(a, b){
     return a + b;
@@ -39,7 +39,7 @@ class Person{
     }
 }
 
-describe('Undefined' , () => {
+describe('Functions' , () => {
     it('#testCallingGlobalMethods', () => { 
         equal(__, globalMethod(10, 20));
     });
