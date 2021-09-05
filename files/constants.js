@@ -46,7 +46,7 @@ describe('Constants' , () => {
         equal(__ ,ANOTHER_GLOBAL);
     });
 
-    it.only('#testConstantsScope', () => { 
+    it('#testConstantsScope', () => { 
         let GLOBAL = 10;
         equal(__ ,GLOBAL);
     });
