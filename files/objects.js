@@ -1,6 +1,6 @@
 
 const { equal, match } = require('assert');
-describe('Undefined' , () => {
+describe('Objects' , () => {
     it('#testObjectTypes', () => {
         const anyValue = {
             a: 1,
