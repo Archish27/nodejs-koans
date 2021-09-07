@@ -11,3 +11,4 @@ require('../files/regex');
 require('../files/functions');
 require('../files/constants');
 require('../files/controlStatements');
+require('../files/quadrilateralsProject');
