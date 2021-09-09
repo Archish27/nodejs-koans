@@ -13,3 +13,4 @@ require('../files/constants');
 require('../files/controlStatements');
 require('../files/quadrilateralsProject');
 require('../files/classes');
+require('../files/scoring');
