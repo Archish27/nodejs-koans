@@ -12,3 +12,4 @@ require('../files/functions');
 require('../files/constants');
 require('../files/controlStatements');
 require('../files/quadrilateralsProject');
+require('../files/classes');
