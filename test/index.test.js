@@ -17,3 +17,4 @@ require('../files/scoring');
 require('../files/inheritance');
 require('../files/modules');
 require('../files/childProcess');
+require('../files/url.js');
