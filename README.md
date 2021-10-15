@@ -10,7 +10,7 @@ Each koan builds up your knowledge of JavaScript and builds upon itself. It will
 
 Some koans simply need to have the correct answer substituted for an incorrect one. Some, however, require you to supply your own answer. If you see the method `__` (a double underscore) listed, it is a hint to you to supply your own code in order to make it work correctly.
 
-Refer diagramtic representation [here](https://app.codesee.io/maps/public/e3271660-2d86-11ec-8c85-f958d9504daa)
+Refer diagramatic representation [here](https://app.codesee.io/maps/public/e3271660-2d86-11ec-8c85-f958d9504daa)
 
 ## Installation Steps 🔨
 
