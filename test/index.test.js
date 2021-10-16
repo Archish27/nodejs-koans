@@ -19,3 +19,4 @@ require('../files/modules');
 require('../files/childProcess');
 require('../files/url.js');
 require('../files/os.js');
+require('../files/util.js');
