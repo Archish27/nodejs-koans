@@ -2,6 +2,7 @@
 
 const chalk = require('chalk');
 const Mocha = require('mocha');
+const { parse } = require('stacktrace-parser')
 const {
   EVENT_RUN_BEGIN,
   EVENT_RUN_END,
@@ -35,8 +36,9 @@ class MyReporter {
       })
       .on(EVENT_TEST_FAIL, (test, err) => {
         console.log('Please meditate on the following code: 🧘')
+        const stackParser = parse(err.stack)[0];
         console.log(
-          `${this.indent()}${chalk.red(`${test.title} in ${test.file}`)}`
+          `${this.indent()}${chalk.red(`${test.title} in ${stackParser.file}:${stackParser.lineNumber}`)}`
         );
         console.log("\n");
       })
