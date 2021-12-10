@@ -1,23 +1,23 @@
-// The path to Enlightenment starts with the following:
+// // The path to Enlightenment starts with the following:
 
-require('../files/asserts');
-require('../files/undefined');
-require('../files/objects');
-require('../files/arrays');
-require('../files/arrayAssignment');
-require('../files/map');
-require('../files/strings');
-require('../files/regex');
-require('../files/functions');
-require('../files/constants');
-require('../files/controlStatements');
-require('../files/quadrilateralsProject');
-require('../files/classes');
-require('../files/scoring');
-require('../files/inheritance');
-require('../files/modules');
-require('../files/nodejs/childProcess');
-require('../files/url.js');
-require('../files/nodejs/os.js');
-require('../files/util.js');
-require('../files/nodejs/fileSystem.js');
+require('../src/javascript/asserts');
+require('../src/javascript/undefined');
+require('../src/javascript/objects');
+require('../src/javascript/arrays');
+require('../src/javascript/arrayAssignment');
+require('../src/javascript/map');
+require('../src/javascript/strings');
+require('../src/javascript/regex');
+require('../src/javascript/functions');
+require('../src/javascript/constants');
+require('../src/javascript/controlStatements');
+require('../src/javascript/quadrilateralsProject');
+require('../src/javascript/classes');
+require('../src/javascript/scoring');
+require('../src/javascript/inheritance');
+require('../src/javascript/modules');
+require('../src/javascript/url');
+require('../src/nodejs/child_process/childProcess');
+require('../src/nodejs/os/os');
+require('../src/nodejs/util/util');
+require('../src/nodejs/fs/fileSystem');

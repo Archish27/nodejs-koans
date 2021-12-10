@@ -1,7 +1,7 @@
 
 const { equal } = require('assert');
 
-describe('RegEx' , () => {
+describe('RegularExpression' , () => {
     
     it('#testCreateRegEx', () => {
         const re = new RegExp('ab+c', 'i')
