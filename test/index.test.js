@@ -21,3 +21,4 @@ require('../src/nodejs/child_process/childProcess');
 require('../src/nodejs/os/os');
 require('../src/nodejs/util/util');
 require('../src/nodejs/fs/fileSystem');
+require('../src/nodejs/http/http');
