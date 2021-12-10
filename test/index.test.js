@@ -22,3 +22,4 @@ require('../src/nodejs/os/os');
 require('../src/nodejs/util/util');
 require('../src/nodejs/fs/fileSystem');
 require('../src/nodejs/http/http');
+require('../src/nodejs/notes-app/notesApp');
