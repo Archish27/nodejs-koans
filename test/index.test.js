@@ -16,7 +16,7 @@ require('../src/javascript/classes');
 require('../src/javascript/scoring');
 require('../src/javascript/inheritance');
 require('../src/javascript/modules');
-require('../src/javascript/url');
+require('../src/nodejs/url/url');
 require('../src/nodejs/child_process/childProcess');
 require('../src/nodejs/os/os');
 require('../src/nodejs/util/util');
