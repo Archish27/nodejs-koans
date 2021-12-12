@@ -53,6 +53,7 @@ class MyReporter {
         }
         console.log("\n");
         console.log(chalk.bgBlue(`Your progress : ${stats.passes}/${stats.passes + stats.failures} (${~~total}%)`));
+        process.exit();
       });
   }
 
