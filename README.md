@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="./img/nodejskoans.png" alt="Nodejs Koans" width="350"/>
+</p>
+
 # Node.js Koans
 
 The Nodejs Koans walk you along the path to enlightenment in order to learn JavaScript + Nodejs. The goal is to learn the JavaScript language & Nodejs, syntax, structure, and some common functions and libraries.
