@@ -1,4 +1,4 @@
-# Nodejs Koans
+# Node.js Koans
 
 The Nodejs Koans walk you along the path to enlightenment in order to learn JavaScript + Nodejs. The goal is to learn the JavaScript language & Nodejs, syntax, structure, and some common functions and libraries.
 
@@ -20,5 +20,10 @@ Refer diagramatic representation [here](https://app.codesee.io/maps/public/e3271
 - Execute koans : \
 `npm run test --silent`
 
+## What it covers?
 
-[Inspiration Video](https://www.youtube.com/watch?v=LrhkUsRg3vo&ab_channel=OmniakaEverything) 💡
+JavaScript                 |  Node.js
+:-------------------------:|:-------------------------:
+![](./img/javascript.png)  |  ![](./img/nodejs.png)
+
+### [Inspiration Video](https://www.youtube.com/watch?v=LrhkUsRg3vo&ab_channel=OmniakaEverything) 💡
