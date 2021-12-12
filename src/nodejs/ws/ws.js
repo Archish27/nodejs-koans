@@ -1,5 +1,4 @@
 const { equal } = require('assert');
-const wsServer = require('./server');
 const { WebSocket, WebSocketServer } = require('ws');
 
 describe('WS module' , () => {
@@ -16,7 +15,7 @@ describe('WS module' , () => {
 
         wss.on('connection', (ws) => {
             ws.on('message', (msg) => {
-                equal(msg.toString(), 'foo');
+                equal(msg.toString(), __);
                 ws.close();
             });
         });
@@ -26,7 +25,7 @@ describe('WS module' , () => {
         const wss = new WebSocket.Server({ port: 9200 }, () => {
             const ws = new WebSocket(`ws://localhost:9200`);
             ws.on('ping', (msg) => { 
-                equal(msg, 'hello')
+                equal(msg, __)
                 wss.close(done); 
             });
         });
@@ -41,7 +40,7 @@ describe('WS module' , () => {
         const wss = new WebSocket.Server({ port: 9200 }, () => {
           const ws = new WebSocket(`ws://localhost:9200`);
           ws.on('pong', (msg) => { 
-                equal(msg, 'bye')
+                equal(msg, __)
                 wss.close(done); 
             });
         });

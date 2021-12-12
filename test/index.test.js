@@ -13,6 +13,7 @@ require('../src/javascript/constants');
 require('../src/javascript/controlStatements');
 require('../src/javascript/quadrilateralsProject');
 require('../src/javascript/classes');
+require('../src/javascript/promises');
 require('../src/javascript/scoring');
 require('../src/javascript/inheritance');
 require('../src/javascript/modules');
