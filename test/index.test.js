@@ -1,4 +1,4 @@
-// // // The path to Enlightenment starts with the following:
+// // // // The path to Enlightenment starts with the following:
 
 require('../src/javascript/asserts');
 require('../src/javascript/undefined');
@@ -13,6 +13,7 @@ require('../src/javascript/constants');
 require('../src/javascript/controlStatements');
 require('../src/javascript/quadrilateralsProject');
 require('../src/javascript/classes');
+require('../src/javascript/promises');
 require('../src/javascript/scoring');
 require('../src/javascript/inheritance');
 require('../src/javascript/modules');
@@ -24,3 +25,4 @@ require('../src/nodejs/fs/fileSystem');
 require('../src/nodejs/http/http');
 require('../src/nodejs/notes-app/notesApp');
 require('../src/nodejs/events/eventEmitter');
+require('../src/nodejs/ws/ws');
