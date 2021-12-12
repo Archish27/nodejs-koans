@@ -16,6 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "stacktrace-parser": "^0.1.10",
-    "supertest": "^6.1.6"
+    "supertest": "^6.1.6",
+    "ws": "^8.3.0"
   }
 }
